@@ -97,7 +97,7 @@ export const servicesData = [
     id: 1,
     heading: "Web Design & Development",
     title: "The Best Web Development in India",
-    img: "./service-img-1.svg",
+    img: "/service-img-1.svg",
     description:
       "Technical Backers here to offer you our exceptional web development services. As an experienced software company, we understand the importance of having a strong online presence and we strive to deliver websites that are visually appealing, user-friendly, and optimized for performance. Web development will make your site look great, work fast and perform well with a seamless experience. With seamless UI, attractive design, and functionality built to target your audience, our experts at Technical Backers will fulfill your every website needs",
 
@@ -107,7 +107,7 @@ export const servicesData = [
       "Creating dynamic changes to the appearance of a website depending on the screen size and orientation",
 
     featureHeading2: "Custom Website",
-    featureImg: "https://cdn-icons-png.flaticon.com/512/1875/1875043.png",
+    featureImg2: "https://cdn-icons-png.flaticon.com/512/1875/1875043.png",
     featureParagraph2:
       "Creating a website based on the user’s requirement or unique to the brand",
 
@@ -125,7 +125,7 @@ export const servicesData = [
     id: 2,
     heading: "Android & IOS Development",
     title: "The Best App Development in India",
-    img: "./service-img-1.svg",
+    img: "/service-img-1.svg",
     description:
       "This is the era of smart devices and as such you must have a mobile app to stay on top of your competition. At Technical Backers we analyze your needs and develop the perfect Mobile application tailored made for your needs. Regardless of what your needs for the mobile app are, be it financial, educational, or information, with our team of expert developers, you will get the perfect mobile application to ensure that your users get the best experience with your business/organization.s",
 
@@ -135,7 +135,7 @@ export const servicesData = [
       "Our expert mobile application developers design and program the perfect application tailor-made for your business to run on your specific platform. This includes every mobile app that is exclusive to a single platform such as ios and Android ...",
 
     featureHeading2: "Hybrid Mobile App Development",
-    featureImg: "https://cdn-icons-png.flaticon.com/512/1875/1875043.png",
+    featureImg2: "https://cdn-icons-png.flaticon.com/512/1875/1875043.png",
     featureParagraph2:
       "Progressive mobile apps are web pages that resemble mobile apps. These lightweight applications are quick to load, have some of the best performance even in poor networks, and do not take much of your mobile space. If you need such a mobile app ...",
 
@@ -153,7 +153,7 @@ export const servicesData = [
     id: 3,
     heading: "SEO",
     title: "The Best Web Development in India ",
-    img: "./service-img-3.png",
+    img: "/service-img-3.png",
     description:
       "Search Engine Optimization (SEO) is the process of refining the quality and quantity of website traffic to a web page from search engines. The SEO concept requires keywords to make it possible for people to find your site. A well-optimized website through SEO speaks the same language as its possible visitor base with keywords. This SEO technique eventually helps connect searchers to your site. The overall SEO process includes knowing keywords, writing high-quality content, additional keyword placement, and review of every page. It is said that “only a hungry person searches for food”. Therefore, if you need brand recognition, your website needs to be visible to a large audience through SEO. Search Engine Optimization (SEO) requires systematic procedure and lots of groundwork that doesn’t happen overnight. We hope that our clients will co-operate with us in every process of SEO. Our team offers you SEO services at a sensible price range.",
 
@@ -163,7 +163,7 @@ export const servicesData = [
       "A critical analysis to check your site for site errors and help you improve the contents on your pages to boost your search engine visibility. We manage internal and external links of your website by conducting an On-page Analysis.",
 
     featureHeading2: "Extensive Keyword Research",
-    featureImg: "https://cdn-icons-png.flaticon.com/512/1875/1875043.png",
+    featureImg2: "https://cdn-icons-png.flaticon.com/512/1875/1875043.png",
     featureParagraph2:
       "Our keyword research is profound which focuses on choosing a general topic and jotting down the keywords that we use. We focus on the target audience to select keywords.",
 
@@ -181,7 +181,7 @@ export const servicesData = [
     id: 4,
     heading: "IT Consultant",
     title: "The Best It Consultant in India",
-    img: "./service-img-4.svg",
+    img: "/service-img-4.svg",
     description:
       "IT consultants offer a range of services and expertise to organizations that require technical support, guidance, and advice on how to leverage technology to achieve their business goals. Some of the things IT consultants can offer are Staff training, IT project management, Strategic planning,System Design etc.Overall, IT consultants offer a wide range of services that help organizations to leverage technology effectively, optimize their operations, and achieve their business objectives.",
 
@@ -191,7 +191,7 @@ export const servicesData = [
       "We provide staff training service to organizations to improve the skills and knowledge of their employees in using new technologies effectively. Staff training is crucial as it ensures that employees can use new technologies in their daily work ...",
 
     featureHeading2: "IT project management",
-    featureImg: "https://cdn-icons-png.flaticon.com/512/1875/1875043.png",
+    featureImg2: "https://cdn-icons-png.flaticon.com/512/1875/1875043.png",
     featureParagraph2:
       " We offer IT project management to organizations to oversee technology projects from inception to completion. IT project management is essential as it ensures that technology projects are delivered on time, within budget, and to the required qua ...",
 

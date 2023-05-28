@@ -3,6 +3,7 @@ import { companyLinks, serviceLinks, connectWithUsLinks } from "@/data";
 import { useFormik } from "formik";
 import axios from "axios";
 import * as yup from "yup";
+
 const Footer = () => {
   const validateFooter = yup.object({
     email: yup
@@ -20,10 +21,14 @@ const Footer = () => {
       initialValues,
       validationSchema: validateFooter,
       onSubmit: (value, action) => {
-        axios.post("https://jsonplaceholder.typicode.com/posts", value);
+        axios
+          .post("https://jsonplaceholder.typicode.com/posts", value)
+          .then(({ data }) => console.log(data))
+          .catch((err) => console.log(err));
         action.resetForm();
       },
     });
+
   return (
     <footer className="bg-secondary text-white p-5">
       <div className="container mx-auto">

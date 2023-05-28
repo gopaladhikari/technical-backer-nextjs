@@ -1,13 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import { HomeServicesData } from "@/data";
+import HowWeWork from "@/components/HowWeWork";
+import { HowWeWorkData } from "@/data";
 import Link from "next/link";
 import { ImArrowRight2 } from "react-icons/im";
 
 const Home = () => {
   return (
     <>
-      <section className="bg-[red]">
+      <section>
         <Image
           style={{ filter: "brightness(0.8)" }}
           className="!w-full max-h-[85vh] backdrop-brightness-75"
@@ -80,8 +82,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      <section className="bg-secondary text-light px-5">
+      <section className="bg-secondary text-light px-5 my-20">
         <div className="container mt-5 py-12 mx-auto">
           <div className="flex max-md:flex-col gap-0 mx-auto max-md:gap-12 ">
             <div className="basis-1/2 ">
@@ -104,6 +105,25 @@ const Home = () => {
                 implementation of mobile apps that you are looking for.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="container px-5 mx-auto">
+          <h1 className="md:text-center my-4 text-5xl ">
+            {" "}
+            <span className="text-primary">H</span>ow We Work ?
+          </h1>{" "}
+          <p className="md:text-center my-4">
+            {" "}
+            Level up your team with Technical Backers. Choose the engagement
+            model that makes sense for you.{" "}
+          </p>
+          <div className="flex justify-between max-md:flex-col gap-8 my-12">
+            {HowWeWorkData.map((item) => (
+              <HowWeWork key={item.id} {...item} />
+            ))}
           </div>
         </div>
       </section>
