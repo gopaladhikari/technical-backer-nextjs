@@ -111,7 +111,7 @@ const Home = () => {
 
       <section>
         <div className="container px-5 mx-auto">
-          <h1 className="md:text-center my-4 text-5xl ">
+          <h1 className="md:text-center my-4 text-4xl md:text-5xl ">
             {" "}
             <span className="text-primary">H</span>ow We Work ?
           </h1>{" "}

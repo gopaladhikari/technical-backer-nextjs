@@ -17,6 +17,7 @@ module.exports = {
         secondary: "#212529",
         tertiary: "#8d8f91",
       },
+      fontSize: {},
     },
   },
   plugins: [],

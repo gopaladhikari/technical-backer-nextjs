@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="container mx-auto mt-16">
-        <div className="flex max-md:gap-12 justify-between flex-wrap ">
+        <div className="flex max-md:gap-12 justify-between flex-wrap whitespace-nowrap">
           <ul className="flex basis-[100%] md:basis-0  max-md:items-center flex-col gap-3">
             <h2 className="font-semibold">Company</h2>
             {companyLinks.map((item) => {

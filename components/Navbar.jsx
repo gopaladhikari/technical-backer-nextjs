@@ -26,8 +26,8 @@ const Navbar = () => {
           {navLinks.map(({ id, href, title }) => {
             return (
               <Link
-                className={`text-black font-medium text-[15px] ${
-                  href === pathname ? "text-primary" : null
+                className={`text-black text-[15px] font-semibold ${
+                  href === pathname ? "text-[#157347]" : null
                 }`}
                 key={id}
                 href={href}
