@@ -46,7 +46,7 @@ export const HomeServicesData = [
     title: "IOS Development",
     img: "/social-media-marketing.svg",
     paragraph:
-      "With over a billion active iOS devices worldwide, including iPhones, iPads, and iPods, iOS developers have a vast market to target their apps. Additionally, Apple's App Store has strict guidelines for app quality and security, which helps to ensure that apps developed for iOS are of high quality and safe for users. This can provide a competitive advantage for iOS apps compared to other platforms, as users are more likely to trust and download apps from the App Store.",
+      "With over a billion active iOS devices worldwide, including iPhones, iPads, and iPods, iOS developers have a vast market to target their apps. Additionally,App Store has strict guidelines for app quality and security, which helps to ensure that apps developed for iOS are of high quality and safe for users. This can provide a competitive advantage for iOS apps compared to other platforms, as users are more likely to trust and download apps from the App Store.",
   },
   {
     id: 8,

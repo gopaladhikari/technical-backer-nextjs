@@ -36,11 +36,11 @@ const Contact = () => {
         <div className="w-full">
           <h1 className="text-3xl lg:text-5xl font-bold">
             {" "}
-            Let's <span className="text-primary">Work</span> together{" "}
+            Let&rsquo;s <span className="text-primary">Work</span> together{" "}
           </h1>
           <p className="max-w-[580px] my-4">
             Please tell us a bit about you, your project, and how best to reach
-            you. We’ll get right back to you.
+            you. We&rsquo;ll get right back to you.
           </p>
         </div>
 
